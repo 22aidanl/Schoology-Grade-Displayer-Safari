@@ -1,0 +1,33 @@
+{
+
+    "manifest_version": 2,
+    "name": "Schoology Grade Displayer",
+    "description": "View your class grades from within the Schoology grade report tab.",
+    "version": "0.1.1",
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "content_scripts": [{
+        "css": ["main.css"],
+        "matches": [
+            "*://schoology.harker.org/grades/grades",
+            "*://*.schoology.com/grades/grades"
+        ],
+        "js": ["content.js"]
+    }],
+    "icons": { "16": "Icon-16.png",
+                "32": "Icon-32.png",
+                "64": "Icon-64.png",
+                "128": "Icon-128.png",
+                "256": "Icon-256.png",
+                "512": "Icon-512.png",
+                "1024": "Icon-1024.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "Icon-16.png",
+            "32": "Icon-32.png"
+        },
+        "default_popup": "popup.html"
+    }
+}

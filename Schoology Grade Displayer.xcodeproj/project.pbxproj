@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20193DF258822A100FBC862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20193DE258822A100FBC862 /* AppDelegate.swift */; };
+		F20193E2258822A100FBC862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20193E0258822A100FBC862 /* Main.storyboard */; };
+		F20193E4258822A100FBC862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20193E3258822A100FBC862 /* ViewController.swift */; };
+		F20193E6258822A200FBC862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20193E5258822A200FBC862 /* Assets.xcassets */; };
+		F20193ED258822A200FBC862 /* Schoology Grade Displayer Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F20193EC258822A200FBC862 /* Schoology Grade Displayer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F20193F2258822A200FBC862 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20193F1258822A200FBC862 /* Cocoa.framework */; };
+		F20193F5258822A200FBC862 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20193F4258822A200FBC862 /* SafariWebExtensionHandler.swift */; };
+		F2019407258822A200FBC862 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F2019402258822A200FBC862 /* background.js */; };
+		F2019408258822A200FBC862 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = F2019403258822A200FBC862 /* main.css */; };
+		F201940A258822A200FBC862 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F2019405258822A200FBC862 /* manifest.json */; };
+		F201940B258822A200FBC862 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F2019406258822A200FBC862 /* content.js */; };
+		F22CCA9E259D82680050A594 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F22CCA9D259D82680050A594 /* popup.html */; };
+		F23EF6012593E37C00D68049 /* Icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = F23EF5FA2593E37C00D68049 /* Icon-16.png */; };
+		F23EF6022593E37C00D68049 /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = F23EF5FB2593E37C00D68049 /* Icon-256.png */; };
+		F23EF6032593E37C00D68049 /* Icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F23EF5FC2593E37C00D68049 /* Icon-32.png */; };
+		F23EF6042593E37C00D68049 /* Icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = F23EF5FD2593E37C00D68049 /* Icon-64.png */; };
+		F23EF6052593E37C00D68049 /* Icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = F23EF5FE2593E37C00D68049 /* Icon-128.png */; };
+		F23EF6062593E37C00D68049 /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = F23EF5FF2593E37C00D68049 /* Icon-1024.png */; };
+		F23EF6072593E37C00D68049 /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = F23EF6002593E37C00D68049 /* Icon-512.png */; };
+		F2F1568D259EA8D500B48573 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F2F1568C259EA8D500B48573 /* popup.js */; };
+		F2F15691259EA8E700B48573 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = F2F15690259EA8E700B48573 /* popup.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F20193EE258822A200FBC862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F20193D2258822A100FBC862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20193EB258822A200FBC862;
+			remoteInfo = "Schoology Grade Displayer Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F20193FD258822A200FBC862 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F20193ED258822A200FBC862 /* Schoology Grade Displayer Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F20193DA258822A100FBC862 /* Schoology Grade Displayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Schoology Grade Displayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20193DD258822A100FBC862 /* Schoology_Grade_Displayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Schoology_Grade_Displayer.entitlements; sourceTree = "<group>"; };
+		F20193DE258822A100FBC862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F20193E1258822A100FBC862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F20193E3258822A100FBC862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F20193E5258822A200FBC862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F20193E7258822A200FBC862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20193EC258822A200FBC862 /* Schoology Grade Displayer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Schoology Grade Displayer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20193F1258822A200FBC862 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F20193F4258822A200FBC862 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F20193F6258822A200FBC862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20193F7258822A200FBC862 /* Schoology_Grade_Displayer_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Schoology_Grade_Displayer_Extension.entitlements; sourceTree = "<group>"; };
+		F2019402258822A200FBC862 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		F2019403258822A200FBC862 /* main.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = main.css; path = Resources/main.css; sourceTree = "<group>"; };
+		F2019405258822A200FBC862 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		F2019406258822A200FBC862 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+		F22CCA9D259D82680050A594 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		F23EF5FA2593E37C00D68049 /* Icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-16.png"; path = "Schoology Grade Displayer/Assets.xcassets/AppIcon.appiconset/Icon-16.png"; sourceTree = SOURCE_ROOT; };
+		F23EF5FB2593E37C00D68049 /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-256.png"; path = "Schoology Grade Displayer/Assets.xcassets/AppIcon.appiconset/Icon-256.png"; sourceTree = SOURCE_ROOT; };
+		F23EF5FC2593E37C00D68049 /* Icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-32.png"; path = "Schoology Grade Displayer/Assets.xcassets/AppIcon.appiconset/Icon-32.png"; sourceTree = SOURCE_ROOT; };
+		F23EF5FD2593E37C00D68049 /* Icon-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-64.png"; path = "Schoology Grade Displayer/Assets.xcassets/AppIcon.appiconset/Icon-64.png"; sourceTree = SOURCE_ROOT; };
+		F23EF5FE2593E37C00D68049 /* Icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-128.png"; path = "Schoology Grade Displayer/Assets.xcassets/AppIcon.appiconset/Icon-128.png"; sourceTree = SOURCE_ROOT; };
+		F23EF5FF2593E37C00D68049 /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-1024.png"; path = "Schoology Grade Displayer/Assets.xcassets/AppIcon.appiconset/Icon-1024.png"; sourceTree = SOURCE_ROOT; };
+		F23EF6002593E37C00D68049 /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-512.png"; path = "Schoology Grade Displayer/Assets.xcassets/AppIcon.appiconset/Icon-512.png"; sourceTree = SOURCE_ROOT; };
+		F2F1568C259EA8D500B48573 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		F2F15690259EA8E700B48573 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20193D7258822A100FBC862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20193E9258822A200FBC862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20193F2258822A200FBC862 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20193D1258822A100FBC862 = {
+			isa = PBXGroup;
+			children = (
+				F20193DC258822A100FBC862 /* Schoology Grade Displayer */,
+				F20193F3258822A200FBC862 /* Schoology Grade Displayer Extension */,
+				F20193F0258822A200FBC862 /* Frameworks */,
+				F20193DB258822A100FBC862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F20193DB258822A100FBC862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F20193DA258822A100FBC862 /* Schoology Grade Displayer.app */,
+				F20193EC258822A200FBC862 /* Schoology Grade Displayer Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20193DC258822A100FBC862 /* Schoology Grade Displayer */ = {
+			isa = PBXGroup;
+			children = (
+				F20193DD258822A100FBC862 /* Schoology_Grade_Displayer.entitlements */,
+				F20193DE258822A100FBC862 /* AppDelegate.swift */,
+				F20193E0258822A100FBC862 /* Main.storyboard */,
+				F20193E3258822A100FBC862 /* ViewController.swift */,
+				F20193E5258822A200FBC862 /* Assets.xcassets */,
+				F20193E7258822A200FBC862 /* Info.plist */,
+			);
+			path = "Schoology Grade Displayer";
+			sourceTree = "<group>";
+		};
+		F20193F0258822A200FBC862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F20193F1258822A200FBC862 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F20193F3258822A200FBC862 /* Schoology Grade Displayer Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F2019401258822A200FBC862 /* Resources */,
+				F20193F4258822A200FBC862 /* SafariWebExtensionHandler.swift */,
+				F20193F6258822A200FBC862 /* Info.plist */,
+				F20193F7258822A200FBC862 /* Schoology_Grade_Displayer_Extension.entitlements */,
+			);
+			path = "Schoology Grade Displayer Extension";
+			sourceTree = "<group>";
+		};
+		F2019401258822A200FBC862 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2019402258822A200FBC862 /* background.js */,
+				F2019403258822A200FBC862 /* main.css */,
+				F2019405258822A200FBC862 /* manifest.json */,
+				F22CCA9D259D82680050A594 /* popup.html */,
+				F2F1568C259EA8D500B48573 /* popup.js */,
+				F2F15690259EA8E700B48573 /* popup.css */,
+				F23EF5FA2593E37C00D68049 /* Icon-16.png */,
+				F23EF5FC2593E37C00D68049 /* Icon-32.png */,
+				F23EF5FD2593E37C00D68049 /* Icon-64.png */,
+				F23EF5FE2593E37C00D68049 /* Icon-128.png */,
+				F23EF5FB2593E37C00D68049 /* Icon-256.png */,
+				F23EF6002593E37C00D68049 /* Icon-512.png */,
+				F23EF5FF2593E37C00D68049 /* Icon-1024.png */,
+				F2019406258822A200FBC862 /* content.js */,
+			);
+			name = Resources;
+			path = "Schoology Grade Displayer Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20193D9258822A100FBC862 /* Schoology Grade Displayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20193FE258822A200FBC862 /* Build configuration list for PBXNativeTarget "Schoology Grade Displayer" */;
+			buildPhases = (
+				F20193D6258822A100FBC862 /* Sources */,
+				F20193D7258822A100FBC862 /* Frameworks */,
+				F20193D8258822A100FBC862 /* Resources */,
+				F20193FD258822A200FBC862 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20193EF258822A200FBC862 /* PBXTargetDependency */,
+			);
+			name = "Schoology Grade Displayer";
+			productName = "Schoology Grade Displayer";
+			productReference = F20193DA258822A100FBC862 /* Schoology Grade Displayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F20193EB258822A200FBC862 /* Schoology Grade Displayer Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20193FA258822A200FBC862 /* Build configuration list for PBXNativeTarget "Schoology Grade Displayer Extension" */;
+			buildPhases = (
+				F20193E8258822A200FBC862 /* Sources */,
+				F20193E9258822A200FBC862 /* Frameworks */,
+				F20193EA258822A200FBC862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Schoology Grade Displayer Extension";
+			productName = "Schoology Grade Displayer Extension";
+			productReference = F20193EC258822A200FBC862 /* Schoology Grade Displayer Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F20193D2258822A100FBC862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F20193D9258822A100FBC862 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F20193EB258822A200FBC862 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = F20193D5258822A100FBC862 /* Build configuration list for PBXProject "Schoology Grade Displayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F20193D1258822A100FBC862;
+			productRefGroup = F20193DB258822A100FBC862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20193D9258822A100FBC862 /* Schoology Grade Displayer */,
+				F20193EB258822A200FBC862 /* Schoology Grade Displayer Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20193D8258822A100FBC862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20193E6258822A200FBC862 /* Assets.xcassets in Resources */,
+				F20193E2258822A100FBC862 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20193EA258822A200FBC862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F201940A258822A200FBC862 /* manifest.json in Resources */,
+				F22CCA9E259D82680050A594 /* popup.html in Resources */,
+				F2F1568D259EA8D500B48573 /* popup.js in Resources */,
+				F23EF6062593E37C00D68049 /* Icon-1024.png in Resources */,
+				F23EF6032593E37C00D68049 /* Icon-32.png in Resources */,
+				F2019408258822A200FBC862 /* main.css in Resources */,
+				F2019407258822A200FBC862 /* background.js in Resources */,
+				F201940B258822A200FBC862 /* content.js in Resources */,
+				F2F15691259EA8E700B48573 /* popup.css in Resources */,
+				F23EF6022593E37C00D68049 /* Icon-256.png in Resources */,
+				F23EF6042593E37C00D68049 /* Icon-64.png in Resources */,
+				F23EF6052593E37C00D68049 /* Icon-128.png in Resources */,
+				F23EF6012593E37C00D68049 /* Icon-16.png in Resources */,
+				F23EF6072593E37C00D68049 /* Icon-512.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20193D6258822A100FBC862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20193E4258822A100FBC862 /* ViewController.swift in Sources */,
+				F20193DF258822A100FBC862 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20193E8258822A200FBC862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20193F5258822A200FBC862 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F20193EF258822A200FBC862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20193EB258822A200FBC862 /* Schoology Grade Displayer Extension */;
+			targetProxy = F20193EE258822A200FBC862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F20193E0258822A100FBC862 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20193E1258822A100FBC862 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F20193F8258822A200FBC862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F20193F9258822A200FBC862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F20193FB258822A200FBC862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Schoology Grade Displayer Extension/Schoology_Grade_Displayer_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = CA9H9DED26;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Schoology Grade Displayer Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linckelabs.schoologygradedisplayer.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F20193FC258822A200FBC862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Schoology Grade Displayer Extension/Schoology_Grade_Displayer_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = CA9H9DED26;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Schoology Grade Displayer Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linckelabs.schoologygradedisplayer.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F20193FF258822A200FBC862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Schoology Grade Displayer/Schoology_Grade_Displayer.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = CA9H9DED26;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Schoology Grade Displayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linckelabs.schoologygradedisplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F2019400258822A200FBC862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Schoology Grade Displayer/Schoology_Grade_Displayer.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = CA9H9DED26;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Schoology Grade Displayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linckelabs.schoologygradedisplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20193D5258822A100FBC862 /* Build configuration list for PBXProject "Schoology Grade Displayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20193F8258822A200FBC862 /* Debug */,
+				F20193F9258822A200FBC862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20193FA258822A200FBC862 /* Build configuration list for PBXNativeTarget "Schoology Grade Displayer Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20193FB258822A200FBC862 /* Debug */,
+				F20193FC258822A200FBC862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20193FE258822A200FBC862 /* Build configuration list for PBXNativeTarget "Schoology Grade Displayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20193FF258822A200FBC862 /* Debug */,
+				F2019400258822A200FBC862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F20193D2258822A100FBC862 /* Project object */;
+}
