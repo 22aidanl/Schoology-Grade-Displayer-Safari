@@ -1,0 +1,1 @@
+# Schoology-Grade-Displayer-Safari
